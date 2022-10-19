@@ -24,4 +24,14 @@ function squareRoot() {
 
 }
 
+var a = 1,
+b = 0;
+for (
+    var i = 0;
+    i < valor;
+    i++
+)   {
+
+}
+
 }
