@@ -15,3 +15,13 @@ function percent (){
         document.form.textview.value = eval(valor) / 100;
     }
 }
+
+function squareRoot() {
+    var valor = document.form.textview.value;
+    if(!valor) {
+        alert('digite um valor');
+        return;
+
+}
+
+}
