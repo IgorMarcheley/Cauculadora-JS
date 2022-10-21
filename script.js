@@ -24,14 +24,12 @@ function squareRoot() {
 
 }
 
-var a = 1,
-b = 0;
-for (
-    var i = 0;
-    i < valor;
-    i++
-)   {
-
+var a = 1, b = 0;
+for (var i = 0; i < valor; i++) {
+        b = valor / a;
+        a = (b+ a) / 2;
+    }
+    
+    document.form.textview.value = a.toFixed(11);
 }
 
-}
