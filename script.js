@@ -3,29 +3,29 @@ function insert(num) {
 }
 
 function equal () {
-    var valor= document.forms.textview.value;
-    if (valor) {
-        document.form.textview.value = eval(valor)
+    var exp= document.forms.textview.value;
+    if (exp) {
+        document.form.textview.value = eval(exp)
     }
 }
 
 function percent (){
-    var valor = document.form.textview.value;
-    if (valor) {
-        document.form.textview.value = eval(valor) / 100;
+    var exp = document.form.textview.value;
+    if (exp) {
+        document.form.textview.value = eval(exp) / 100;
     }
 }
 
 function squareRoot() {
-    var valor = document.form.textview.value;
-    if(!valor) {
+    var exp = document.form.textview.value;
+    if(!exp) {
         alert('digite um valor');
         return;
 
 }
 
 var a = 1, b = 0;
-for (var i = 0; i < valor; i++) {
+for (var i = 0; i < exp; i++) {
         b = valor / a;
         a = (b+ a) / 2;
     }
